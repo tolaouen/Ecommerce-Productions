@@ -22,4 +22,4 @@ FastAPI-based e-commerce backend with user auth, products, cart, and orders.
 - `/redoc` - ReDoc
 
 ## Admin
-Use `/users/` to create admin (then manually set `is_admin=1` in DB) or add seed script.
+Use `/users/` to create admin (then manually set `is_admin=1` in DB) or add seed script.# Ecommerce-Productions
