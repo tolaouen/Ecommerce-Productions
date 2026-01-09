@@ -4,7 +4,7 @@ from app.models.product import Product
 from app.schemas.product import ProductCreate, ProductUpdate
 
 def get_product(db: Session, product_id: str):
-    return db.query(Product).filter(Product.id == product_id).first()
+    return db.query(Product).filter(Product.id== product_id).first()
 
 def get_product_by_name(db: Session, name: str):
     return db.query(Product).filter(Product.name == name).first()
